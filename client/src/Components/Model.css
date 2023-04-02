@@ -1,0 +1,77 @@
+.modelmain__container{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0, 0, .3 );
+   flex: 1;
+   text-align: center;
+}
+.model__container{
+    background-color: rgb(1, 1, 34);
+    opacity: 5;
+    width: 400px;
+    height: 300px;
+    margin: 100px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+}
+.model_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+.model__formFiled{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+.model__formTitle{
+    padding-right: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.model__formInput{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    font-size: 15px;
+    color: rgb(1, 1, 34);
+    border-radius:5px;
+    border: none ;
+    outline: none;
+}
+.model__close{
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    color: white;
+   margin-top: 10px;
+   padding: 5px 10px;
+   border-radius: 5px;
+    
+}
+.form__updateBtn{
+    color: rgb(1, 1, 34);
+    background-color: white;
+    font-size: 20px;
+    width: 100px;
+    padding: 5px 10px;
+    margin: 5px 30px;
+    margin-left: 45%;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;   
+}
